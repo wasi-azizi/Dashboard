@@ -1,0 +1,130 @@
+.contianer {
+    background-color: rgb(245,247,249);
+    font-family: Poppins;
+    height: 100%;
+}
+
+header {
+    padding: 30px 40px;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    padding: 10px 60px;
+    font-family: Poppins;
+    color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.search button {
+    border: none;
+    outline: none;
+    left: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    background-color: #fff;
+    color: rgb(192,196,200);
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar .comment-bar {
+    display: flex;
+}
+
+.comment-bar a {
+    margin: 0 5px;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: rgb(19,15,38);
+}
+
+header .menu-bar {
+    padding: 40px 0 0 0;
+    border-bottom: 1px solid rgb(236,238,241);
+}
+
+header .menu-bar ul {
+    list-style: none;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar li a {
+    color: rgb(19,15,38);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 10px 10px 20px 5px;
+    text-decoration: none;
+}
+
+.menu-bar li a .header-icon {
+    font-size: 20px;
+    color: rgb(160,167,173);
+    margin-right: 8px;
+}
+
+.active{
+    color: black;
+    border-bottom: 3px solid rgb(253,130,80);
+}
+
+.activeFo{
+    color: black;
+    border-bottom: 3px solid rgb(253,130,80);
+}
+
+
+footer {
+    margin-bottom: 20px;
+}
+
+
+footer ul {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    padding: 40px 20px 10px 20px;
+    margin: auto auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(236,238,241)
+}
+
+footer ul li a {
+    color: black;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,77 @@
+
+
+.card {
+    /* margin: 15px 15px;*/
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.first-info #dot-UN{
+    display: flex;
+    align-items: center;
+}
+
+.first-info .bio {
+    color: #bbb;
+    margin-top: 5px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    background-color: rgb(151,158,165);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+#untilTime {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.UserImg {
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+.UserImg #photo img {
+    width: 25px;
+    border-radius: 20px;
+}
+
+.card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 0 5px 0;
+}
+
+.card-icons #icon {
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-icons #icon:last-child {
+    margin-right: 10px;
+}
+
+.activeComment {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 2px 10px;
+    border-radius: 15px;
+    background-color: rgb(245,247,249);
+}

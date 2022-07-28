@@ -1,0 +1,74 @@
+{
+    "myCardList":
+                [
+                    {
+                        "id": 1,
+                        "color": "#FD8250",
+                        "untilTime": "2 days",
+                        "name": "Design & art",
+                        "bio": "UX of a new mobile App",
+                        "userImages":[
+                            "https://randomuser.me/api/portraits/men/26.jpg",
+                            "https://randomuser.me/api/portraits/women/24.jpg"
+                        ],
+                        "commentsCount": null,
+                        "attachementsCount": 1
+                    },
+                
+                    {
+                        "id": 2,
+                        "color": "#4E4398",
+                        "untilTime": "5 days",
+                        "name": "Typography",
+                        "bio": "Rhythm in Web Typography",
+                        "userImages":[
+                            "https://randomuser.me/api/portraits/women/31.jpg",
+                            "https://randomuser.me/api/portraits/men/46.jpg",
+                            "https://randomuser.me/api/portraits/men/71.jpg"
+                        ],
+                        "commentsCount": 8,
+                        "attachementsCount": null
+                    },
+                
+                    {
+                        "id": 3,
+                        "color": "#487EDE",
+                        "untilTime": "1 week",
+                        "name": "Marketing",
+                        "bio": "Write the first concept",
+                        "userImages":[
+                            "https://randomuser.me/api/portraits/men/82.jpg",
+                            "https://randomuser.me/api/portraits/women/3.jpg"
+                        ],
+                        "commentsCount": null,
+                        "attachementsCount": 3
+                    },
+
+                    {
+                        "id": 4,
+                        "color": "#396868",
+                        "name": "Psychology",
+                        "untilTime": "1 Weeks",
+                        "bio": "Social control and cults",
+                        "userImages":[
+                            "https://randomuser.me/api/portraits/men/28.jpg",
+                            "https://randomuser.me/api/portraits/men/32.jpg"
+                        ],
+                        "commentsCount": 5,
+                        "attachementsCount": null
+                    },
+
+                    {
+                        "id": 5,
+                        "color": "#FD8250",
+                        "name": "UI Design",
+                        "untilTime": "2 Weeks",
+                        "bio": "How to create pattern",
+                        "userImages":[
+                            "https://randomuser.me/api/portraits/women/26.jpg"
+                        ],
+                        "commentsCount": null,
+                        "attachementsCount": 1
+                    }
+                ]
+}
